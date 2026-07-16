@@ -14,3 +14,8 @@ We develop and maintain bioinformatics software and reproducible computational w
 - genome_analysis (coming soon): pipeline dedicated to the QC of assemblies. It uses tools such as Busco, Merqury and Genomescope to generate precise quality metrics to diagnose problems in the assembly
 
 ## Software 
+- [arima htslib](https://github.com/Genoscope-LBGB/arima_htslib): fast reimplementation of the Arima mapping tools to lift computation-time bottlenecks of the current official suite
+- [dotplotrs](https://github.com/Genoscope-LBGB/dotplotrs): very fast dotplot-drawing software with vast customization opportunities (font size, colors, point size, custom sequence orders, ...)
+- [fastoche](https://github.com/institut-de-genomique/fastoche): effortlessly extract common metrics from Fasta or Fastq files, gzipped or not.
+- [find_reference_genomes](https://github.com/Genoscope-LBGB/find_reference_genomes): enter a taxon identifier and a taxonomic rank and find_reference_genomes will automatically search and download reference genomes of this rank
+- [freq-motif-fastq](https://github.com/Genoscope-LBGB/freq-motif-fastq): analyze FASTQ files and generate statistics on dinucleotides, trinucleotides and low-complexity bases. This tool is used as our basis to decide if a sequence needs to be sequences with PacBio or ONT.
