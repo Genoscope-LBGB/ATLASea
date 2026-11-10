@@ -7,7 +7,7 @@ To support this effort, we develop and maintain bioinformatics software and repr
 ## Workflows
 
 - [GALOP](https://github.com/institut-de-genomique/galop): a long-read assembly workflow with optional Hi-C support. It combines assemblers including Flye, NextDenovo and Hifiasm to generate the initial contigs.
-- [Petra](https://workflowhub.org/workflows/2376): predicts taxonomy from proteins encoded by contigs assembled with GALOP, then automatically removes non-eukaryotic contamination.
+- [Petra](https://github.com/Genoscope-LBGB/Petra): predicts taxonomy from proteins encoded by contigs assembled with GALOP, then automatically removes non-eukaryotic contamination.
 - yahs_wrapper (coming soon): a Hi-C scaffolding workflow that uses the Arima mapping pipeline to align reads and YaHS to scaffold the assembly.
 - Trackmania (coming soon): generates tracks for Pretext Hi-C contact maps.
 - [Hobrac](https://github.com/Genoscope-LBGB/hobrac) and its [visualizer](https://www.genoscope.cns.fr/lbgb/hobrac/): tools for identifying homologous reference genomes and performing synteny analysis. During Hi-C curation, Hobrac helps identify related genomes and detect potential misassemblies and missed joins.
